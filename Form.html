@@ -1,0 +1,168 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8"/>
+            <title>Registration Form</title>
+            <meta name="description" content="CMS ITI Road map syllabus"/>
+            <link rel="stylesheet" type="text/css" href="css.css" />
+        </head> 
+        <body>
+            <header>
+                <nav>
+                  <img style="float:right;border:1px solid black"  src="ITI_logo.png" alt="Logo" width="25%" height="79px">
+                  <ul>
+                    <li><a href="index1.html" target="_self"> Home </a>
+                    <li><a href="index2.html" target="_blank"> Road Map </a>
+                    <li><a href="Form.html" target="_blank">Registration Form</a>
+                    <li><a href="https://www.iti.gov.eg/iti/home" target="_blank"> Contact </a> 
+                </ul>
+                </nav>
+              </header>
+              <table class="center">
+
+                <thead style="align-items: center;
+                ;">
+                    <tr>
+                        <td style="color:rgb(81, 158, 104);
+                        font-weight: bolder;
+                        font-size: larger;"> Register-Create Account</td>
+                       
+                    </tr>
+                    <tr>
+                        <td style="background-color:rgba(150, 218, 150, 0.658)">Field Marked with * are compulsory fields </td>
+                    
+                    </tr>
+                </thead>
+                <tbody>
+                    <form action="#" method="get">
+                    <tr>
+                        <td>
+                            <label >
+                                <span style="color:red;">*</span>Your Name
+                            </label>
+                        </td>
+                        <td>
+                            <input size="2" type="text" name="name"  id="name" required/>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <label>
+                                <span style="color:red;">*</span>Email
+                            </label>
+                        </td>
+                        <td>
+                            <input size="2"  type="email" name="email" id="email" required />
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <label>
+                                Alternative E-mail ID
+                            </label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" />
+                        </td>
+                    </tr>
+            
+                    <tr>
+                        <td>
+                            <label>
+                                Your Phone Number
+                            </label>
+                        </td>
+                        <td>
+                            
+                            <input type="tel" name="phone" id="phone" placeholder="Country Code"/>
+                            <input type="tel" name="phone" id="phone" placeholder="City Code"/>
+                            <input type="tel" name="phone" id="phone" placeholder="Phone Number"/>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>
+                                Mobile Phone 
+                            </label>
+                        </td>
+                        <td>
+                            <input type="tel" name="mobile" id="mobile">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>
+                                <span style="color:red;">*</span>Your Postal Address
+                            </label>
+                        </td>
+                        <td>
+                            <textarea name="address"  placeholder= "Please Fill Out This Filed" required > 
+
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label> <span style="color:red;">*</span> Country</label>
+                        </td>
+                        <td>
+                            <select name="country"  id="country" required>
+                                <option value="select" disabled selected>----------Select----------</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="Jordon">Jordon</option>
+                                <option value="USA">USA</option>
+                                <option value="England">England</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>
+                                <span style="color:red;">*</span>Password
+                            </label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>
+                                <span style="color:red;">*</span>Re-Enter Password
+                            </label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="checkAgree" required>
+                            I accept the <a href="https://termly.io/resources/guides/how-to-write-terms-and-conditions/"><U> Terms of Use</U>.</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="align-items:center">
+                            <input type="reset" name="reset" value="Reset">
+                            <input type="submit" name="submit" value="Continue">
+                        </td>
+                    </tr>
+                </form>
+                </tbody>
+              </table>
+           <hr>
+           <footer>
+           <p style="color:forestgreen;text-align: center;font-weight: bold;">
+             Copyright 2021 by Noha Salah &reg;. All Rights Reserved.
+           </p>
+           </footer>
+        </body>
+    </html>
