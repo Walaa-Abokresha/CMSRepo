@@ -57,3 +57,6 @@ label{
   background-color:rgba(170, 255, 170, 0.658);
   width: 200px;
 }
+p{
+  background-color: beige;
+}
